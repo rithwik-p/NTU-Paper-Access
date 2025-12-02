@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "NTU-Paper-Access",
+  "description": "Chrome extension for NTU students to access research papers easily.",
+  "version": "1.0",
+  "homepage_url": "https://github.com/rithwik-p/NTU-Paper-Access.git",
+  "author": "Rithwik Premanand",
+  "icons": {
+    "16": "images/icon.png",
+    "19": "images/icon.png",
+    "48": "images/icon.png",
+    "128": "images/icon.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "images/icon.png",
+      "19": "images/icon.png",
+      "48": "images/icon.png",
+      "128": "images/icon.png"
+    }
+  },
+  "background": {
+    "service_worker": "event.js"
+  },
+  "permissions": [
+    "tabs",
+    "scripting",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "offline_enabled": false
+}
