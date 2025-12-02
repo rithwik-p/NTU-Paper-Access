@@ -2,7 +2,7 @@
 
 NTU Paper Access is a lightweight Chrome extension that helps NTU students quickly access research papers through the university's remote access (RemoteXs) portal.
 
-Clicking the extension while viewing a journal article or paywalled paper opens NTU's RemoteXs login page with the current article URL pre-filled — so you can sign in and retrieve the article using NTU institutional access with a single click.
+Clicking the extension while viewing a journal article or paywalled paper opens NTU's RemoteXs login page with the current article URL pre-filled, so you can sign in and retrieve the article using NTU institutional access with a single click.
 
 
 ## Key features
